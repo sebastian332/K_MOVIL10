@@ -115,6 +115,7 @@ public class logueoEncuesta extends AppCompatActivity {
                 public void onFailure(Call<com.example.k_movil10.postEncuesta.Respuesta> call, Throwable t) {
                     Toast.makeText(logueoEncuesta.this, "Error", Toast.LENGTH_SHORT).show();
 
+
                 }
             });
 
